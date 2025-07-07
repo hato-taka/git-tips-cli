@@ -1,0 +1,42 @@
+[
+    {
+      "command": "git status",
+      "description": "現在のステージ状態と作業ツリーの状態を表示します。"
+    },
+    {
+      "command": "git log --oneline",
+      "description": "ログを1行ずつ簡潔に表示します。"
+    },
+    {
+      "command": "git diff",
+      "description": "作業ツリーとインデックスの差分を表示します。"
+    },
+    {
+      "command": "git diff --staged",
+      "description": "ステージングされた変更の差分を表示します。"
+    },
+    {
+      "command": "git restore .",
+      "description": "作業ツリーの変更をすべて元に戻します。"
+    },
+    {
+      "command": "git commit -m 'msg'",
+      "description": "メッセージ付きでコミットします。"
+    },
+    {
+      "command": "git checkout -b new-branch",
+      "description": "新しいブランチを作成してチェックアウトします。"
+    },
+    {
+      "command": "git branch -d branch-name",
+      "description": "指定したブランチを削除します。"
+    },
+    {
+      "command": "git stash",
+      "description": "現在の変更を退避（一時保存）します。"
+    },
+    {
+      "command": "git stash pop",
+      "description": "最後に退避した変更を元に戻します。"
+    }
+  ]
