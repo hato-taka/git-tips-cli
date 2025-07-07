@@ -25,6 +25,8 @@ A simple CLI tool that shows you random useful Git tips to improve your daily Gi
 pip install git-tips-cli
 ```
 
+https://pypi.org/project/git-tips-cli/0.1.0/
+
 Or if you're developing locally:
 
 ```bash

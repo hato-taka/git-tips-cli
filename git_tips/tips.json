@@ -39,4 +39,45 @@
       "command": "git stash pop",
       "description": "最後に退避した変更を元に戻します。"
     }
-  ]
+  ,
+  {
+    "command": "git remote -v",
+    "description": "設定されているリモートリポジトリの一覧を表示します。"
+  },
+  {
+    "command": "git fetch origin",
+    "description": "指定したリモートから最新の情報を取得します（マージはしません）。"
+  },
+  {
+    "command": "git pull origin main",
+    "description": "リモートリポジトリの main ブランチを現在のブランチに取り込みます。"
+  },
+  {
+    "command": "git push origin feature-branch",
+    "description": "現在の作業ブランチをリモートにプッシュします。"
+  },
+  {
+    "command": "git reset --hard HEAD~1",
+    "description": "直前のコミットを完全に取り消し、履歴を1つ前に戻します。"
+  },
+  {
+    "command": "git rebase -i HEAD~3",
+    "description": "過去3件のコミットをインタラクティブに書き換えることができます。"
+  },
+  {
+    "command": "git cherry-pick <commit>",
+    "description": "特定のコミットを現在のブランチに適用します。"
+  },
+  {
+    "command": "git log --graph --oneline --all",
+    "description": "ブランチの履歴をグラフィカルに表示します。"
+  },
+  {
+    "command": "git clean -fd",
+    "description": "未追跡のファイルとディレクトリを強制的に削除します。"
+  },
+  {
+    "command": "git reflog",
+    "description": "HEADやブランチの移動履歴を確認できます（リセット前などの救済に使えます）。"
+  }
+]
